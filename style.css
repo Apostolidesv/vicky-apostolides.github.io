@@ -232,3 +232,30 @@ footer {
     height: auto;
   }
 }
+.project-layout {
+display: flex;
+gap: 30px;
+align-items: flex-start;
+}
+
+.project-thumbnail {
+width: 280px;
+height: 200px;
+object-fit: cover;
+border-radius: 8px;
+flex-shrink: 0;
+}
+
+.project-layout p {
+margin-bottom: 15px;
+}
+
+.project-layout a {
+color: #6495ED;
+font-weight: bold;
+text-decoration: none;
+}
+
+.project-layout a:hover {
+text-decoration: underline;
+}
