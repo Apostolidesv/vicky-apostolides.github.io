@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Vicky Apostolides</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <h1>Vicky Apostolides</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="maps.html">Maps</a>
+        <a href="publications.html">Publications & Presentations</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <h2>Research Projects</h2>
+
+    <div class="project-page-card">
+
+        <img src="images/alaska_ndvi.jpg" alt="Alaska NDVI Project">
+
+        <div>
+            <h3>Alaska Braidplain NDVI Analysis</h3>
+
+            <p>
+                Investigating vegetation succession on proglacial braidplains
+                in Alaska using Landsat imagery and NDVI time series analysis.
+            </p>
+
+            <p>
+                Techniques: GIS, Remote Sensing, Python, Landsat
+            </p>
+        </div>
+
+    </div>
+
+</main>
+
+</body>
+</html>
