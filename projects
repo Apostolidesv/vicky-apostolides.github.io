@@ -1,53 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Vicky Apostolides</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Your Name</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
 <header class="site-header">
-    <h1>Vicky Apostolides</h1>
+  <h1>Your Name</h1>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="maps.html">Maps</a>
-        <a href="publications.html">Publications & Presentations</a>
-        <a href="cv.html">CV</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="maps.html">Maps</a>
+    <a href="publications.html">Publications & Presentations</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 </header>
 
 <main class="container">
 
-    <h2>Research Projects</h2>
+  <h2>Projects</h2>
 
-    <div class="project-page-card">
+  <section class="project-section">
+    <h3>Alaska Braidplains NDVI</h3>
+    <p>
+      Short project summary here. Describe your research question, study area, methods,
+      and what you are learning from the project.
+    </p>
+    <p><strong>Tools:</strong> GIS, Python, Landsat, NDVI, remote sensing</p>
+  </section>
 
-        <img src="images/alaska_ndvi.jpg" alt="Alaska NDVI Project">
+  <section class="project-section">
+    <h3>Appalachian Microbes</h3>
+    <p>
+      Short project summary here. Describe the microbial focus, study area, and why the
+      project matters for environmental or geoscience research.
+    </p>
+    <p><strong>Tools:</strong> Field sampling, lab analysis, environmental microbiology</p>
+  </section>
 
-        <div>
-            <h3>Alaska Braidplain NDVI Analysis</h3>
+  <section class="project-section">
+    <h3>Polluted Caves and Effects on Microbes</h3>
+    <p>
+      Short project summary here. Describe how human pollutants may influence cave
+      microbial communities and cave environments.
+    </p>
+    <p><strong>Tools:</strong> Literature review, cave systems, microbial ecology</p>
+  </section>
 
-            <p>
-                Investigating vegetation succession on proglacial braidplains
-                in Alaska using Landsat imagery and NDVI time series analysis.
-            </p>
+  <section class="project-section">
+    <h3>E. coli in Kentucky Rivershed</h3>
+    <p>
+      Short project summary here. Describe the water quality focus, the watershed/rivershed,
+      and how spatial data are being used.
+    </p>
+    <p><strong>Tools:</strong> QGIS, water quality data, spatial analysis, E. coli monitoring</p>
+  </section>
 
-            <p>
-                Techniques: GIS, Remote Sensing, Python, Landsat
-            </p>
-        </div>
+  <section class="project-section">
+    <h3>Flooding in Kentucky Catchment Area</h3>
+    <p>
+      Short project summary here. Describe your KGS-related work on flooding, catchments,
+      precipitation, or hydrologic impacts.
+    </p>
+    <p><strong>Tools:</strong> GIS, flood data, precipitation analysis, Kentucky Geological Survey</p>
+  </section>
 
-    </div>
+  <section class="project-section">
+    <h3>Stream Mapping in Appalachian Streams</h3>
+    <p>
+      Short project summary here. Describe your current internship/REU work using UAS
+      imagery to map stream systems and riparian vegetation.
+    </p>
+    <p><strong>Tools:</strong> UAS, drone imagery, Pix4D, ArcGIS Pro, stream mapping</p>
+  </section>
 
 </main>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
 
 </body>
 </html>
