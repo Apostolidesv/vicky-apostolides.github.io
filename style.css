@@ -10,10 +10,12 @@ body {
   line-height: 1.7;
 }
 
+/* Blue banner */
 .site-header {
   background: #6495ED;
   color: white;
-  padding: 45px 60px 35px;
+  padding: 60px 60px 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
 }
 
 .site-header h1 {
@@ -21,6 +23,7 @@ body {
   margin: 0 0 25px;
 }
 
+/* Navigation */
 nav a {
   color: white;
   text-decoration: none;
@@ -33,6 +36,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Main page layout */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -47,6 +51,7 @@ nav a:hover {
   margin-bottom: 60px;
 }
 
+/* Profile image */
 .profile-pic {
   width: 280px;
   height: 280px;
@@ -64,10 +69,16 @@ nav a:hover {
   margin: 14px 0;
 }
 
+/* Text */
 h2 {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 20px;
+  color: #1f4e79;
+}
+
+h3 {
+  color: #1f4e79;
 }
 
 .about p {
@@ -79,6 +90,7 @@ section {
   margin-bottom: 55px;
 }
 
+/* Interest cards */
 .interest-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -93,6 +105,7 @@ section {
   font-weight: bold;
 }
 
+/* Homepage project cards */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -106,6 +119,11 @@ section {
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
 }
 
 .project-icon {
@@ -115,9 +133,45 @@ section {
 
 .project-card h3 {
   margin-top: 0;
-  color: #1f1f2e;
 }
 
+/* Projects page sections */
+.project-section {
+  background: white;
+  border-left: 5px solid #6495ED;
+  padding: 25px 30px;
+  margin-bottom: 28px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.project-section:hover {
+  transform: translateY(-3px);
+}
+
+.project-section h3 {
+  margin-top: 0;
+  color: #1f4e79;
+  font-size: 1.75rem;
+}
+
+/* Optional project image layout */
+.project-page-card {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.project-page-card img {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Education */
 .education {
   display: flex;
   gap: 25px;
@@ -128,6 +182,7 @@ section {
   font-size: 3rem;
 }
 
+/* Footer */
 footer {
   max-width: 1100px;
   margin: 0 auto;
@@ -166,35 +221,14 @@ footer {
   .project-grid {
     grid-template-columns: 1fr;
   }
-}
-.project-page-card {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 50px;
-    align-items: center;
-}
 
-.project-page-card img {
-    width: 300px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 8px;
-}
+  .project-page-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-.project-page-card h3 {
-    margin-top: 0;
-}
-.project-section {
-  background: white;
-  border-left: 5px solid #6495ED;
-  padding: 25px 30px;
-  margin-bottom: 28px;
-  border-radius: 8px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
-}
-
-.project-section h3 {
-  margin-top: 0;
-  color: #1f4e79;
-  font-size: 1.5rem;
+  .project-page-card img {
+    width: 100%;
+    height: auto;
+  }
 }
