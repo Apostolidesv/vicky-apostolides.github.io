@@ -1,1 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Publications & Presentations | Vicky Apostolides</title>
+
+  <!-- Change this filename if your stylesheet has a different name -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-content">
+
+      <h1 class="site-name">Vicky Apostolides</h1>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="maps.html">Maps</a>
+        <a href="publications.html" class="active">
+          Publications &amp; Presentations
+        </a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main class="publications-page">
+
+    <!-- Page Introduction -->
+    <section class="page-intro">
+      <p class="section-label">Research Communication</p>
+
+      <h2>Publications &amp; Presentations</h2>
+
+      <p>
+        My research spans remote sensing, hydrology, geomorphology,
+        karst science, environmental microbiology, and geospatial analysis.
+        This page highlights manuscripts currently in development and
+        presentations of my research.
+      </p>
+    </section>
+
+
+    <!-- Publications -->
+    <section class="publication-section">
+      <div class="section-heading">
+        <h2>Manuscripts in Preparation</h2>
+
+        <p>
+          The following projects are currently being developed under the
+          mentorship of Dr. Rachel Washburn.
+        </p>
+      </div>
+
+
+      <div class="publication-list">
+
+        <article class="publication-item">
+          <span class="status-tag">In Preparation</span>
+
+          <h3>
+            Appalachian Microbial Communities: Geological Influences and
+            Knowledge Gaps
+          </h3>
+
+          <p class="citation">
+            Apostolides, V., and Washburn, R.
+          </p>
+
+          <p>
+            A literature review examining microbial communities across the
+            Appalachian Mountains and how the region's diverse geology,
+            topography, and environmental conditions may contribute to
+            microbial diversity.
+          </p>
+        </article>
+
+
+        <article class="publication-item">
+          <span class="status-tag">In Preparation</span>
+
+          <h3>
+            Human and Biological Impacts on Karst Systems: Emerging
+            Microbial Knowledge Gaps
+          </h3>
+
+          <p class="citation">
+            Apostolides, V., and Washburn, R.
+          </p>
+
+          <p>
+            A literature review investigating how urbanization, agriculture,
+            tourism, wildlife, pollution, and microbial communities influence
+            karst environments and ecosystem health.
+          </p>
+        </article>
+
+
+        <article class="publication-item">
+          <span class="status-tag">In Preparation</span>
+
+          <h3>
+            Spatial and Temporal Patterns of
+            <em>Escherichia coli</em> Across the Kentucky River Basin
+          </h3>
+
+          <p class="citation">
+            Apostolides, V., Washburn, R., et al.
+          </p>
+
+          <p>
+            An analysis of long-term citizen-science monitoring data from
+            Watershed Watch in Kentucky examining relationships among
+            <em>E. coli</em>, rainfall, turbidity, location, and seasonality
+            across the Kentucky River Basin.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- Presentations -->
+    <section class="presentation-section">
+      <div class="section-heading">
+        <h2>Presentations</h2>
+
+        <p>
+          Selected poster and research presentations from internships,
+          conferences, and undergraduate research programs.
+        </p>
+      </div>
+
+
+      <div class="presentation-grid">
+
+        <!-- Presentation 1 -->
+        <article class="presentation-card">
+
+          <img
+            src="images/alaska-poster.jpg"
+            alt="Vicky Apostolides presenting research on Alaskan proglacial braidplains"
+          >
+
+          <div class="presentation-content">
+
+            <p class="presentation-year">2026</p>
+
+            <h3>
+              Vegetation Dynamics and Stability of Alaskan Proglacial
+              Braidplains
+            </h3>
+
+            <p class="authors">
+              Apostolides, V., and Armstrong, W.
+            </p>
+
+            <p class="venue">
+              Undergraduate Research Presentation
+            </p>
+
+            <p>
+              An analysis of vegetation establishment and landscape change
+              across Alaskan proglacial braidplains using Landsat imagery,
+              NDVI, NDWI, and multidecadal geospatial analysis.
+            </p>
+
+          </div>
+        </article>
+
+
+        <!-- Presentation 2 -->
+        <article class="presentation-card">
+
+          <img
+            src="images/reu-stream-poster.jpg"
+            alt="Research poster about drone-based stream and riparian vegetation assessment"
+          >
+
+          <div class="presentation-content">
+
+            <p class="presentation-year">2026</p>
+
+            <h3>
+              Drone-Based Assessment of Riparian Vegetation Health
+            </h3>
+
+            <p class="authors">
+              Apostolides, V., and Sama, M.
+            </p>
+
+            <p class="venue">
+              University of Kentucky NSF REU Program
+            </p>
+
+            <p>
+              A methods-focused project combining drone photogrammetry,
+              RGB vegetation indices, Random Forest classification, and
+              SAM2 segmentation to compare natural and human-impacted streams.
+            </p>
+
+          </div>
+        </article>
+
+
+        <!-- Presentation 3 -->
+        <article class="presentation-card">
+
+          <img
+            src="images/kgs-flood-poster.jpg"
+            alt="Research presentation about flood modeling in central Kentucky"
+          >
+
+          <div class="presentation-content">
+
+            <p class="presentation-year">2025</p>
+
+            <h3>
+              Flood Modeling and Hydrologic Analysis of a Central Kentucky
+              Catchment
+            </h3>
+
+            <p class="authors">
+              Apostolides, V., Swallom, M., et al.
+            </p>
+
+            <p class="venue">
+              Kentucky Geological Survey Potter Internship
+            </p>
+
+            <p>
+              A hydrologic study using Mesonet and NOAA data, GIS,
+              Python, and TUFLOW to investigate precipitation patterns
+              and flood behavior in a central Kentucky catchment.
+            </p>
+
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- Closing note -->
+    <section class="research-note">
+      <h2>Ongoing Research</h2>
+
+      <p>
+        Several of these projects remain in progress. Titles, author order,
+        presentation venues, and publication status will be updated as the
+        research develops.
+      </p>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Vicky Apostolides</p>
+  </footer>
+
+</body>
+</html>
