@@ -504,3 +504,55 @@ iframe {
   color: #2f6fd6;
   font-weight: 600;
 }
+
+.about-section {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #5F91E5;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.15);
+}
+
+.about-section h2 {
+    color: #174F7A;
+    font-size: 2.5rem;
+}
+
+.about-section p {
+    line-height: 1.8;
+}
+
+.about-section a {
+    color: #5F91E5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+
+    .about-section {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .profile-picture {
+        margin: 0 auto;
+    }
+}
